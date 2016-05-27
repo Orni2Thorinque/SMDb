@@ -10,3 +10,4 @@ Back-end Web API Restfull, développé et testé sur le serveur d'application Wi
   Framework SpringMVC 4 avec méthode par annotations.
   Base de données MySQL. 
   Persistence de données avec Hibernate 3.
+  Gestion des dépendances avec Maven.
