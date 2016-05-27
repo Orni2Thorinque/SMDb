@@ -1,0 +1,21 @@
+<div ng-app="smdb">
+  <div ng-controller="main">
+		<div>
+			<h2>
+        SMDB
+			</h2>
+		</div>
+		<div ng-repeat="movie in movies" class="moviePageContainer">
+			<movie-page movie-title="movie" current-page="currentPage"></movie-page>
+		</div>
+		<div class="actionMenuContainer">
+			<action-bar></action-bar>
+		</div>
+		<div class="formContainer">
+			<forms></forms>
+		</div>
+		<div class="menuBarContainer">
+			<menu-bar current-page="currentPage" nb-page="nbPage"></menu-bar>
+		</div>
+  </div>
+</div>
